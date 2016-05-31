@@ -35,9 +35,9 @@ header {
 }
 
 .layout-wrap{
-  max-width: 1280px;
+  max-width: 960px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 24px;
 }
 
 .notifications {
@@ -57,50 +57,96 @@ header {
 }
 
 nav {
-  padding-top: 20px;
+  padding-top: 24px;
 }
 .nav-section{
   display: block;
   height: 150px;
-  width: 30.4342%;
+  width: 30.66%;
   position: relative;
   float: left;
   background: #000000;
 }
+
 .page-body .nav-section:nth-child(1){
   left: 0;
-  right: 30.4347%;
+  right: auto;
 }
 
 .page-body .nav-section:nth-child(2){
 
-  /*right: 65.2172%;*/
-  left: 4.3478%;
+  left: 4%;
   right: auto;
 }
 
 .page-body .nav-section:nth-child(3){
-  /*left: 69.5650%;*/
-  left: 8.700747014%;
+  left: 8%;
   right: 0;
 }
 
+.nav-section > p{
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
 
-.content {
-  background: #dad;
-  /*   right: 200px; */
-  right: 25%;
+.menu {
+  display: block;
+  background: #d1d1d1;
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
   left: 0;
 }
-.sidebar {
-  background: #bee;
-  /*   width: 200px; */
-  left: 75%;
-  right: 0;
+
+.menu-hint{
+  text-align: left;
+  margin: 0 auto;
 }
-.footer {
-  background: #666;
-  width: 100%;
-  bottom: 0;
-  height: 60px;
+
+.menu-hint p{
+  float: left;
+  padding-left: 20px;
+  color: black;
+  font-size: 10px;
+}
+.arrow {
+  text-align: right;
+  padding-top: 7px;
+  padding-right: 10px;
+}
+
+.tabs {
+  padding-top: 160px;
+}
+
+.action-list{
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.tabs ul {
+  padding-left: 0;
+  width: 20%;
+  height: 30px;
+}
+
+.tabs ul li {
+  display: block;
+  width: 30.66%;
+  background: #555555;
+  list-style: none;
+  float: left;
+}
+
+.tabs li a {
+  /*display: block;*/
+  text-align: center;
+
+}
+.tabs div{
+  /*width: 25%;*/
 }
