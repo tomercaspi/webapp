@@ -59,6 +59,7 @@ header {
 nav {
   padding-top: 24px;
 }
+
 .nav-section{
   display: block;
   height: 150px;
@@ -117,36 +118,75 @@ nav {
   padding-right: 10px;
 }
 
-.tabs {
-  padding-top: 160px;
+.action-list{
+display: none;
+position: absolute;
+left: 0;
+top: 0;
 }
 
-.action-list{
-  display: none;
-  position: absolute;
-  left: 0;
-  top: 0;
+.tabs {
+  padding-top: 24px;
+  display: block;
+  width: 100%;
+  position: relative;
+  float: left;
 }
 
 .tabs ul {
   padding-left: 0;
-  width: 20%;
-  height: 30px;
+  margin:0;
 }
 
 .tabs ul li {
   display: block;
-  width: 30.66%;
+  position: relative;
+  width: 22%;
+  height: 30px;
   background: #555555;
   list-style: none;
   float: left;
+  text-align: center;
+  /*padding-top: 5px;*/
+}
+
+.tabs li:nth-child(1){
+  left: 0;
+  right: auto;
+}
+
+.tabs li:nth-child(2){
+  left: 4%;
+  right: auto;
+}
+
+.tabs li:nth-child(3){
+  left: 8%;
+  right: auto;
+}
+
+.tabs li:last-child{
+  left: 12%;
+  right: 0;
 }
 
 .tabs li a {
-  /*display: block;*/
-  text-align: center;
-
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  display: block;
+  height: inherit;
+  line-height: 30px;
 }
+
 .tabs div{
-  /*width: 25%;*/
+  background: #d1d1d1;
+  width: 100%;
+  position: absolute;
+  top: 54px;
+  height: 300px;
+}
+
+.tabs li a:target{
+  background-color: #d1d1d1;
 }
