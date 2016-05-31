@@ -36,6 +36,7 @@ header {
 
 .layout-wrap{
   max-width: 960px;
+  min-width: 585px;
   margin: 0 auto;
   padding: 24px;
 }
@@ -209,7 +210,7 @@ nav {
   height: 300px;
 }
 
-.tabs li a:target{
+/*.tabs li a:target{
   background: #d1d1d1;
   color: #000000;
-}
+}*/
