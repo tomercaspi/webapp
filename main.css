@@ -110,7 +110,9 @@ nav {
   float: left;
   padding-left: 20px;
   color: black;
-  font-size: 10px;
+  font-size: 0.85rem;
+  padding-top: 7px;
+  margin: 0 auto;
 }
 .arrow {
   text-align: right;
@@ -119,12 +121,32 @@ nav {
 }
 
 .action-list{
-display: none;
-position: absolute;
-left: 0;
-top: 0;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  z-index: 10;
+  padding: 0;
+  width: 100%;
+  margin: 0 auto;
 }
 
+.nav-section .action-list:target{
+  display: block;
+}
+
+.action-list li{
+  list-style: none;
+  height: 30px;
+  /*background: #d1d1d1;*/
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+/*.action-list li:not(:first-child){
+  background-color: #ffffff;
+}*/
 .tabs {
   padding-top: 24px;
   display: block;
@@ -188,5 +210,6 @@ top: 0;
 }
 
 .tabs li a:target{
-  background-color: #d1d1d1;
+  background: #d1d1d1;
+  color: #000000;
 }
