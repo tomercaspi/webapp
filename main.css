@@ -68,22 +68,11 @@ nav {
   position: relative;
   float: left;
   background: #000000;
+  margin-right: 4%;
 }
 
-.page-body .nav-section:nth-child(1){
-  left: 0;
-  right: auto;
-}
-
-.page-body .nav-section:nth-child(2){
-
-  left: 4%;
-  right: auto;
-}
-
-.page-body .nav-section:nth-child(3){
-  left: 8%;
-  right: 0;
+.nav-section:last-child{
+  margin-right: 0;
 }
 
 .nav-section > p{
@@ -148,6 +137,7 @@ nav {
 /*.action-list li:not(:first-child){
   background-color: #ffffff;
 }*/
+
 .tabs {
   padding-top: 24px;
   display: block;
@@ -170,27 +160,11 @@ nav {
   list-style: none;
   float: left;
   text-align: center;
-  /*padding-top: 5px;*/
+  margin-right: 4%;
 }
 
-.tabs li:nth-child(1){
-  left: 0;
-  right: auto;
-}
-
-.tabs li:nth-child(2){
-  left: 4%;
-  right: auto;
-}
-
-.tabs li:nth-child(3){
-  left: 8%;
-  right: auto;
-}
-
-.tabs li:last-child{
-  left: 12%;
-  right: 0;
+.tabs ul li:last-child{
+  margin-right: 0;
 }
 
 .tabs li a {
