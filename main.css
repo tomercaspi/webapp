@@ -58,14 +58,17 @@ header {
 
 nav {
   padding-top: 24px;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-section{
   display: block;
   height: 150px;
-  width: 30.66%;
+  width: 280px;
+  /*width: 30.66%;*/
   position: relative;
-  float: left;
+  /*float: left;*/
   background: #000000;
   margin-right: 4%;
 }
