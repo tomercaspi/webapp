@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <title>WebApp</title>
 </head>
@@ -24,14 +27,14 @@ Implement:
 
 <header>
     <div class="layout-wrap">
-        <a href="#"><img src="https://googledrive.com/host/0B6ZIsommzsgVMVA2MzdKUjN2S0U/logo-netcraft.svg" alt="netcraft"></a>
+        <a href="#"><img src="img/logo-netcraft.svg" alt="netcraft"></a>
         <form class="search-box" method="get" action="http://www.google.com">
             <input type="search" name="q" placeholder="search">
         </form>
     </div>
 </header>
 
-<div class="page-body layout-wrap">
+<section class="page-body layout-wrap">
     <div class="notifications">
     </div>
     <nav>
@@ -84,7 +87,7 @@ Implement:
             </div>
         </div>
     </nav>
-    <div class="tabs">
+    <section class="tabs">
         <ul>
             <li><a href="#quick-reports">Quick Reports</a>
             </li>
@@ -103,7 +106,10 @@ Implement:
         </div>
         <div id="public-folders">
         </div>
-    </div>
-</div>
+    </section>
+</section>
+
+<script src="js/main.js"></script>
+
 </body>
 </html>

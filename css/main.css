@@ -40,6 +40,11 @@ header {
   padding: 24px;
 }
 
+header > .layout-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+
 .notifications {
   display: block;
   width: 100%;
@@ -52,9 +57,9 @@ header {
   top: 6px;
   content: 'The data of UTF Bi would be updated at 16:00 pm';
 }
-.search-box {
-  float: right;
-}
+/*.search-box {
+  !*float: right;*!
+}*/
 
 nav {
   padding-top: 24px;
