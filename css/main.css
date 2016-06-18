@@ -38,10 +38,12 @@ header {
   min-width: 585px;
   margin: 0 auto;
   padding: 24px;
+  display: flex;
+  flex-direction: column;
 }
 
 header > .layout-wrap{
-  display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -57,9 +59,6 @@ header > .layout-wrap{
   top: 6px;
   content: 'The data of UTF Bi would be updated at 16:00 pm';
 }
-/*.search-box {
-  !*float: right;*!
-}*/
 
 nav {
   padding-top: 24px;
@@ -150,24 +149,24 @@ nav {
   display: block;
   width: 100%;
   position: relative;
-  float: left;
 }
 
 .tabs ul {
   padding-left: 0;
   margin:0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .tabs ul li {
-  display: block;
+  /*display: block;*/
   position: relative;
   width: 22%;
   height: 30px;
   background: #555555;
   list-style: none;
-  float: left;
   text-align: center;
-  margin-right: 4%;
+  /*margin-right: 4%;*/
 }
 
 .tabs ul li:last-child{
